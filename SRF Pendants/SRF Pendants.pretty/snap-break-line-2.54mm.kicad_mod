@@ -1,0 +1,18 @@
+(module snap-break-line-2.54mm (layer F.Cu) (tedit 5ED27FDE)
+  (fp_text reference break-line (at 0 -0.4064) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
+  (fp_text value VAL** (at 0 2.1) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
+  (fp_line (start -4.064 0.508) (end 4.5 0.5) (layer F.SilkS) (width 0.12))
+  (fp_text user SNAP (at 0.0254 -0.3556) (layer F.SilkS)
+    (effects (font (size 0.8 0.8) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole circle (at -0.5 0.5) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at -2 0.5) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at -3.5 0.5) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at 1 0.5) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at 2.5 0.5) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at 4 0.5) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+)

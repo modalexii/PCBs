@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name SRF-Pendants-rescue)(type Legacy)(uri "${KIPRJMOD}/SRF Pendants-rescue.lib")(options "")(descr ""))
+)

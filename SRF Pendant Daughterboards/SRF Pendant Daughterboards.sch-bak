@@ -1,0 +1,51 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LED:WS2812B D?
+U 1 1 5EFFB571
+P 4600 3200
+F 0 "D?" H 4944 3246 50  0000 L CNN
+F 1 "WS2812B" H 4944 3155 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 4650 2900 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4700 2825 50  0001 L TNN
+	1    4600 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 5EFFBA02
+P 6700 3200
+F 0 "D?" H 7044 3246 50  0000 L CNN
+F 1 "WS2812B" H 7044 3155 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6750 2900 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6800 2825 50  0001 L TNN
+	1    6700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SRF~Pendants-cache:SYN480R U?
+U 1 1 5EFFE54A
+P 5750 4150
+F 0 "U?" H 5775 4165 50  0000 C CNN
+F 1 "SYN480R" H 5775 4074 50  0000 C CNN
+F 2 "" H 5750 4150 50  0001 C CNN
+F 3 "" H 5750 4150 50  0001 C CNN
+	1    5750 4150
+	1    0    0    -1  
+$EndComp
+Text GLabel 6150 4600 2    50   Input ~ 0
+SHUTB
+$EndSCHEMATC
